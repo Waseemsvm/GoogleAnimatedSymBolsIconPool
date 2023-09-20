@@ -1,0 +1,51 @@
+.size1 {
+  font-size: 1.5rem;
+}
+.size2 {
+  font-size: 2.5rem;
+}
+.size3 {
+  font-size: 5rem;
+}
+.size4 {
+  font-size: 7.5rem;
+}
+.size5 {
+  font-size: 10rem;
+}
+
+@media (max-width: 599px) {
+  .size1 {
+    font-size: 1rem;
+  }
+  .size2 {
+    font-size: 2rem;
+  }
+  .size3 {
+    font-size: 3rem;
+  }
+  .size4 {
+    font-size: 4rem;
+  }
+  .size5 {
+    font-size: 5rem;
+  }
+}
+
+.myPulse {
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    font-variation-settings: "wght" 100;
+  }
+
+  50% {
+    font-variation-settings: "wght" 700;
+  }
+
+  100% {
+    font-variation-settings: "wght" 100;
+  }
+}
